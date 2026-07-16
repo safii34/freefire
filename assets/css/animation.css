@@ -1,0 +1,210 @@
+/* ====================================
+   Safi Shop Animation.css v3.0
+==================================== */
+
+/* Fade In */
+@keyframes fadeIn{
+0%{
+opacity:0;
+transform:translateY(30px);
+}
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.fade-in{
+animation:fadeIn .8s ease forwards;
+}
+
+/* Slide Left */
+@keyframes slideLeft{
+0%{
+opacity:0;
+transform:translateX(80px);
+}
+100%{
+opacity:1;
+transform:translateX(0);
+}
+}
+
+.slide-left{
+animation:slideLeft .8s ease forwards;
+}
+
+/* Slide Right */
+@keyframes slideRight{
+0%{
+opacity:0;
+transform:translateX(-80px);
+}
+100%{
+opacity:1;
+transform:translateX(0);
+}
+}
+
+.slide-right{
+animation:slideRight .8s ease forwards;
+}
+
+/* Zoom */
+@keyframes zoomIn{
+0%{
+opacity:0;
+transform:scale(.8);
+}
+100%{
+opacity:1;
+transform:scale(1);
+}
+}
+
+.zoom-in{
+animation:zoomIn .7s ease;
+}
+
+/* Float */
+@keyframes floating{
+0%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-12px);
+}
+100%{
+transform:translateY(0);
+}
+}
+
+.float{
+animation:floating 3s ease-in-out infinite;
+}
+
+/* Pulse */
+@keyframes pulse{
+0%{
+transform:scale(1);
+}
+50%{
+transform:scale(1.05);
+}
+100%{
+transform:scale(1);
+}
+}
+
+.pulse{
+animation:pulse 2s infinite;
+}
+
+/* Rotate */
+@keyframes rotate{
+from{
+transform:rotate(0deg);
+}
+to{
+transform:rotate(360deg);
+}
+}
+
+.rotate{
+animation:rotate 10s linear infinite;
+}
+
+/* Bounce */
+@keyframes bounce{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-15px);
+}
+}
+
+.bounce{
+animation:bounce 1.5s infinite;
+}
+
+/* Shine Button */
+.btn{
+position:relative;
+overflow:hidden;
+}
+
+.btn::before{
+content:"";
+position:absolute;
+top:0;
+left:-120%;
+width:60%;
+height:100%;
+background:rgba(255,255,255,.35);
+transform:skewX(-25deg);
+transition:.8s;
+}
+
+.btn:hover::before{
+left:150%;
+}
+
+/* Card Hover */
+.product-card,
+.feature-card{
+transition:.35s;
+}
+
+.product-card:hover,
+.feature-card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+
+/* Image Hover */
+.product-card img{
+transition:.4s;
+}
+
+.product-card:hover img{
+transform:scale(1.08);
+}
+
+/* Navigation Hover */
+.nav-menu a{
+transition:.3s;
+}
+
+.nav-menu a:hover{
+transform:translateY(-3px);
+}
+
+/* Hero Image */
+.hero-image img{
+animation:floating 4s ease-in-out infinite;
+}
+
+/* Back To Top */
+.back-top{
+transition:.3s;
+}
+
+.back-top:hover{
+transform:scale(1.15);
+}
+
+/* Scroll Animation */
+.hidden{
+opacity:0;
+transform:translateY(40px);
+transition:all .8s ease;
+}
+
+.show{
+opacity:1;
+transform:translateY(0);
+}
+
+
+

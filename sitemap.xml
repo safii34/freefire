@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://safii34.github.io/freefire/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/pubg-uc.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/freefire-diamond.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/royal-pass.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/about.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/contact.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/faq.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/privacy.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://safii34.github.io/freefire/terms.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
